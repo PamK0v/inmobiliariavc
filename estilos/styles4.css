@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header {
+    background-color: #333;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header p {
+    color: #fff;
+    font-size: 11px;
+    margin: 0;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    height: 65px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar h1 {
+    font-size: 30px;
+    width: 69%;
+    text-align: left;
+    padding: 8px 20px;
+    color: #333;
+    margin: 0;
+  }
+
+  nav {
+    width: 800px;
+    text-align: right;
+    display: flex;
+    padding: 6px 20px;
+    height: 4em;
+    color: #333;
+    align-items: center;
+  }
+
+  ul.menu {
+    float: right;
+  }
+
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    text-align: right;
+    font-size: 15px;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 6px 6px;
+  }
+  
+  nav ul li:hover {
+    background: #b3b3b3;
+  }
+
+  nav a:hover {
+    color: #fff;
+  }
+
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  .text-decoration {
+    background: linear-gradient(70deg, rgb(248, 245, 245), rgb(150, 150, 207), rgb(248, 245, 245));
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    align-content: center;
+    display: inline-block;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-decoration h1 {
+    color: #242323;
+    font-family: Arial, 'Helvetica', sans-serif; font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .service {
+    width: calc(50% - 40px);
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .service:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .service-content {
+    padding: 20px;
+  }
+  
+  .service h3 {
+    margin-top: 0;
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .service p {
+    color: #1f1e1e;
+    font-size: 13px;
+    line-height: 1.4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  /* Media queries para diseño responsive */
+  @media screen and (max-width: 768px) {
+    .service {
+      width: calc(100% - 40px);
+    }
+  }
+
+  footer {
+    background-color: #333;
+    width: -webkit-fill-available;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, 'Helvetica', sans-serif;
+    position: relative;
+  }
+
+  .datos-empresa {
+    width: 30%;
+    padding-top: 0px;
+    font-size: 16px;
+    color: #ffffff;
+  }
+
+  .datos-empresa h1 {
+    color: #ffffff;
+    margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .datos-empresa a {
+    text-decoration: none;
+    font-family: Arial, 'Helvetica', sans-serif;
+    color: #fff;
+  }
+
+  .menu-vertical {
+    list-style-type: none;
+    padding: 5px 5px;
+    margin: 40px;
+  }
+
+  .menu-vertical h2 {
+    color: #ffffff;
+    padding-top: 8px;
+  }
+
+  .menu-vertical li {
+    margin-bottom: 10px;
+  }
+
+  .menu-vertical li a {
+    text-decoration: none;
+    text-align: left;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .formulario-contacto {
+    width: 40%;
+    margin-top: 0px;
+  }
+
+  .formulario-contacto h2 {
+    color: #ffffff;
+    margin: 10px;
+    font-family: Arial, 'Helvetica', sans-serif;
+  }
+
+  .formulario-contacto input[type="text"],
+  .formulario-contacto input[type="email"],
+  .formulario-contacto textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, 'Helvetica', sans-serif;
+  }
+
+  .formulario-contacto input[type="submit"] {
+    background-color: #7d817de0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: Arial, 'Helvetica', sans-serif;
+  }
+
+  .formulario-contacto input[type="submit"]:hover {
+    background-color: #000000;
+  }

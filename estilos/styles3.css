@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header {
+    background-color: #333;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header p {
+    color: #fff;
+    font-size: 11px;
+    margin: 0;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    height: 65px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar h1 {
+    font-size: 30px;
+    width: 69%;
+    text-align: left;
+    padding: 8px 20px;
+    color: #333;
+    margin: 0;
+  }
+
+  nav {
+    width: 800px;
+    text-align: right;
+    display: flex;
+    padding: 6px 20px;
+    height: 4em;
+    color: #333;
+    align-items: center;
+  }
+
+  ul.menu {
+    float: right;
+  }
+
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    text-align: right;
+    font-size: 15px;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 6px 6px;
+  }
+  
+  nav ul li:hover {
+    background: #b3b3b3;
+  }
+
+  nav a:hover {
+    color: #fff;
+  }
+
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  .text-decoration {
+    background: linear-gradient(70deg, rgb(248, 245, 245), rgb(150, 150, 207), rgb(248, 245, 245));
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    align-content: center;
+    display: inline-block;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-decoration h1 {
+    color: #242323;
+    font-family: Arial, 'Helvetica', sans-serif; font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    width: -webkit-fill-available;
+    height: auto;
+    padding: 20px;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  form {
+    width: 40%;
+    flex-direction: column;
+    display: flex;
+    margin: 5px;
+  }
+
+  .form-content h2 {
+    font-family: Arial, 'Helvetica', sans-serif;
+    color: #333;
+    font-size: 45px;
+    margin-bottom: 25px;
+  }
+
+  label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 16px;
+  }
+
+  input, textarea {
+    padding: 17px 14px;
+    background-color: rgb(235, 232, 232);
+    border: 0;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  :focus {
+    outline: 1px solid #242323;
+  }
+
+  .btn {
+    background-color: #242323;
+    width: 150px;
+    align-self: flex-end;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .btn:hover {
+    background-color: #afafaf;
+  }
+
+  @media(max-width:900px) {
+    .container {
+        width: 100%;
+    }
+
+    .form-content {
+        width: 100%;
+    }
+
+    form, .btn {
+        width: 100%;
+        align-self: center;
+    }
+  }
+
+  .horario {
+    width: 30%;
+    padding: 10px;
+    
+  }
+
+  .horario h3 {
+    font-family: Arial, 'Helvetica', sans-serif;
+    font-size: 25px;
+    margin-bottom: 14px;
+    color: #333;
+  }
+
+  .horario p, a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    line-height: 1.2;
+  }
+
+  @media(max-width:900px) {
+    .horario {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+  }
+
+footer {
+    background-color: #333;
+    width: -webkit-fill-available;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Arial, 'Helvetica', sans-serif;
+    position: relative;
+  }
+
+  .datos-empresa {
+    width: 30%;
+    padding-top: 0px;
+    font-size: 16px;
+    color: #ffffff;
+  }
+
+  .datos-empresa h1 {
+    color: #ffffff;
+    margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .datos-empresa a {
+    text-decoration: none;
+    font-family: Arial, 'Helvetica', sans-serif;
+    color: #fff;
+  }
+
+  .menu-vertical {
+    list-style-type: none;
+    padding: 5px 5px;
+    margin: 40px;
+  }
+
+  .menu-vertical h2 {
+    color: #ffffff;
+    padding-top: 8px;
+  }
+
+  .menu-vertical li {
+    margin-bottom: 10px;
+  }
+
+  .menu-vertical li a {
+    text-decoration: none;
+    text-align: left;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+  }
